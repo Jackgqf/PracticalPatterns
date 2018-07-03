@@ -5,7 +5,7 @@ using System.Text;
 
 namespace PracticalPatterns.Common
 {
-    public class EnumerableHelper
+    public static class EnumerableHelper
     {
         public static void ForEach<T>(this IEnumerable<T> sequence, Action<T> action)
         {
