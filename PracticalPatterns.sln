@@ -10,10 +10,17 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{8ECA2145-24ED-46FF-B5E0-B2816464676F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{79FA0BD4-C8D0-44B5-8DBF-790B25D8B0A5}"
+	ProjectSection(SolutionItems) = preProject
+		setup\TestDriven.NET-4.3.12258_Personal_Beta.zip = setup\TestDriven.NET-4.3.12258_Personal_Beta.zip
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{6E8BE176-71E3-4846-8EFC-B75D295016DC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Tests", "unitTest\Common.Tests\Common.Tests.csproj", "{8EEEF089-DD6A-4F8C-9E84-5E56206B5794}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 OO", "01 OO", "{78AF25EB-B533-475D-BEC8-B0461B73D702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPrinciple", "src\OOPrinciple\OOPrinciple.csproj", "{84CF8DBA-7BB7-42D0-A453-82BA6B96AACE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,12 +36,18 @@ Global
 		{8EEEF089-DD6A-4F8C-9E84-5E56206B5794}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EEEF089-DD6A-4F8C-9E84-5E56206B5794}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EEEF089-DD6A-4F8C-9E84-5E56206B5794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84CF8DBA-7BB7-42D0-A453-82BA6B96AACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84CF8DBA-7BB7-42D0-A453-82BA6B96AACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84CF8DBA-7BB7-42D0-A453-82BA6B96AACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84CF8DBA-7BB7-42D0-A453-82BA6B96AACE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D620E65B-0E63-4D38-9C9C-A091506CBA2A} = {2E15E7CB-BA56-47DC-BF7A-434B4EB9D8FA}
+		{78AF25EB-B533-475D-BEC8-B0461B73D702} = {2E15E7CB-BA56-47DC-BF7A-434B4EB9D8FA}
 		{8EEEF089-DD6A-4F8C-9E84-5E56206B5794} = {8249D198-7D0B-4C42-AD64-138EF08EDBA4}
+		{84CF8DBA-7BB7-42D0-A453-82BA6B96AACE} = {78AF25EB-B533-475D-BEC8-B0461B73D702}
 	EndGlobalSection
 EndGlobal
