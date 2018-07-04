@@ -70,5 +70,14 @@ namespace PracticalPatterns.Concept.Tests
                 registry.FirstOrDefault(x => x.Key == typeof(DbProviderFactory)).Value.FirstOrDefault(
                 x => x.Key.Equals(TestName)).Value, typeof(OdbcFactory));
         }
+
+        [TestMethod]
+        public void WithLinq2()
+        {
+            string testName2 = "hashSet";
+            Assert.AreEqual<Type>(
+                registry.FirstOrDefault(x => x.Key == typeof(ICollection<string>)).Value.FirstOrDefault(
+                x => x.Key.Equals(testName2)).Value, typeof(HashSet<string>));
+        }
     }
 }
