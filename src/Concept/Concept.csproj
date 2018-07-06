@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Delegating\AsyncInvoker.cs" />
     <Compile Include="Delegating\InvokeList.cs" />
+    <Compile Include="Delegating\MulticastDelegateInvoker.cs" />
     <Compile Include="Delegating\StringAssignmentEventHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

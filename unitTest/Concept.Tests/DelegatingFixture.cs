@@ -26,5 +26,12 @@ namespace PracticalPatterns.Concept.Tests
             list.Invoke();
             Assert.AreEqual<string>("hello,world", list[0] + list[1] + list[2]);
         }
+
+        [TestMethod]
+        public void MulticastDelegateInvoke()
+        {
+            var invoker = new MulticastDelegateInvoker();
+            Assert.AreEqual<string>("hello,world", invoker[0] + invoker[1] + invoker[2]);
+        }
     }
 }
