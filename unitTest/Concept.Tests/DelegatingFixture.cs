@@ -33,5 +33,23 @@ namespace PracticalPatterns.Concept.Tests
             var invoker = new MulticastDelegateInvoker();
             Assert.AreEqual<string>("hello,world", invoker[0] + invoker[1] + invoker[2]);
         }
+
+        [TestMethod]
+        public void EventMonitorSimulate()
+        {
+            Order order1 = new Order();
+            order1.Create();    //AddedTimes = 1;
+            order1.ChangeDate();//ModifiedTimes = 1;
+            order1.ChangeDate();//ModifiedTimes = 2;
+            order1.ChangeOwner();//ModifiedTimes = 3;
+
+            Order order2 = new Order();
+            order2.Create();        //AddedTimes = 2;
+            order2.ChangeID();      //ModifiedTimes = 4;
+            order2.ChangeOwner();   //ModifiedTimes = 5;
+
+            Assert.AreEqual<int>(2, EventMonitor.AddedTimes);
+            Assert.AreEqual<int>(5, EventMonitor.ModifiedTmes);
+        }
     }
 }

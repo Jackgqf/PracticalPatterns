@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Delegating\AsyncInvoker.cs" />
+    <Compile Include="Delegating\EventMonitor.cs" />
     <Compile Include="Delegating\InvokeList.cs" />
     <Compile Include="Delegating\MulticastDelegateInvoker.cs" />
     <Compile Include="Delegating\StringAssignmentEventHandler.cs" />
