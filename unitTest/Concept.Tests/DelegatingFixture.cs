@@ -6,6 +6,7 @@ using System.Threading;
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PracticalPatterns.Concept.Delegating;
+using System.Diagnostics;
 
 namespace PracticalPatterns.Concept.Tests
 {
@@ -50,6 +51,27 @@ namespace PracticalPatterns.Concept.Tests
 
             Assert.AreEqual<int>(2, EventMonitor.AddedTimes);
             Assert.AreEqual<int>(5, EventMonitor.ModifiedTmes);
+        }
+
+        [TestClass]
+        public class LamadaTimerFiture
+        {
+            class AsyncInvoker
+            {
+                public AsyncInvoker()
+                {
+                    Trace.WriteLine("Method");
+                    new Timer((x) => Trace.WriteLine(x), "slow", 2500, 2500);
+                    new Timer((x) => Trace.WriteLine(x), "Fast", 2000, 2000);
+                }
+            }
+
+            [TestMethod]
+            public void SimpleAsyncInvoke()
+            {
+                new AsyncInvoker();
+                Thread.Sleep(3000);
+            }
         }
     }
 }
