@@ -26,7 +26,8 @@ namespace PracticalPatterns.Concept.Delegating
             StringAssignmentEventHandler handlers = null;
             handlers += () => message[0] = "hello";
             handlers += () => message[1] = ",";
-
+            handlers += () => message[2] = "world";
+            handlers();
         }
         #endregion
 
