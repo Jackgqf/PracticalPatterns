@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Attributing\AttributedBuilder.cs" />
     <Compile Include="Delegating\AsyncInvoker.cs" />
     <Compile Include="Delegating\EventMonitor.cs" />
     <Compile Include="Delegating\InvokeList.cs" />
