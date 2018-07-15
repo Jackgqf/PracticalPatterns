@@ -47,11 +47,17 @@
     <Compile Include="Delegating\InvokeList.cs" />
     <Compile Include="Delegating\MulticastDelegateInvoker.cs" />
     <Compile Include="Delegating\StringAssignmentEventHandler.cs" />
+    <Compile Include="DependencyInjection\Assembler.cs" />
+    <Compile Include="DependencyInjection\Example1\Example.cs" />
+    <Compile Include="DependencyInjection\Example2\Example.cs" />
+    <Compile Include="DependencyInjection\ITimeProvider.cs" />
+    <Compile Include="DependencyInjection\SystemTimeProvider.cs" />
     <Compile Include="Generics\RawGenericFactory.cs" />
     <Compile Include="Operator\ErrorEntity.cs" />
     <Compile Include="Operator\Season.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
