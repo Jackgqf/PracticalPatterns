@@ -13,6 +13,7 @@ namespace PracticalPatterns.Concept.Attributing
         void BuildPartC();
     }
 
+    [AttributeUsage(AttributeTargets.Class,AllowMultiple = true)]
     public sealed class DirectorAttribute : Attribute, IComparable<DirectorAttribute>
     {
         public int Priority { get; set; }

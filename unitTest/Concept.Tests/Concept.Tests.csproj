@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AttributingFixture.cs" />
     <Compile Include="DelegatingFixture.cs" />
     <Compile Include="LinqFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
