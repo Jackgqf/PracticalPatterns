@@ -48,6 +48,7 @@
     <Compile Include="Delegating\MulticastDelegateInvoker.cs" />
     <Compile Include="Delegating\StringAssignmentEventHandler.cs" />
     <Compile Include="Generics\RawGenericFactory.cs" />
+    <Compile Include="Operator\Season.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
