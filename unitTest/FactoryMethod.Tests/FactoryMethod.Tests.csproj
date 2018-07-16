@@ -45,12 +45,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleFactory\FactoryFixture.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\FactoryMethod\FactoryMethod.csproj">
-      <Project>{CF376DDF-CF33-44E4-8436-AA3E3340B5C6}</Project>
-      <Name>FactoryMethod</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
