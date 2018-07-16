@@ -45,6 +45,8 @@
     <Compile Include="AttributingFixture.cs" />
     <Compile Include="DelegatingFixture.cs" />
     <Compile Include="DependencyInjection\Constructor\ConstructorInjectionTest.cs" />
+    <Compile Include="DependencyInjection\Interfacer\InterfaceInjectionFixture.cs" />
+    <Compile Include="DependencyInjection\Interfacer\InterfaceInjectionTest.cs" />
     <Compile Include="DependencyInjection\Setter\SetterInjectionFixture.cs" />
     <Compile Include="DependencyInjection\Setter\SetterInjectionTest.cs" />
     <Compile Include="ErrorEntityFixture.cs" />
@@ -61,7 +63,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DependencyInjection\Attributer\" />
-    <Folder Include="DependencyInjection\Interfacer\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
