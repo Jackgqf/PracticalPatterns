@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classic\FactoryFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleFactory\FactoryFixture.cs" />
     <Compile Include="SimpleFactory\ProductFactoryFixture.cs" />
