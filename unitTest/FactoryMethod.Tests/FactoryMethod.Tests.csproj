@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleFactory\FactoryFixture.cs" />
+    <Compile Include="SimpleFactory\ProductFactoryFixture.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\src\FactoryMethod\FactoryMethod.csproj">
