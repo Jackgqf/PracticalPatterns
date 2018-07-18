@@ -52,6 +52,8 @@
     <Compile Include="DependencyInjection\Example2\Example.cs" />
     <Compile Include="DependencyInjection\ITimeProvider.cs" />
     <Compile Include="DependencyInjection\SystemTimeProvider.cs" />
+    <Compile Include="FluentInterface\CollentionDataFacade.cs" />
+    <Compile Include="FluentInterface\IDataFacade.cs" />
     <Compile Include="Generics\RawGenericFactory.cs" />
     <Compile Include="Operator\ErrorEntity.cs" />
     <Compile Include="Operator\Season.cs" />

@@ -50,6 +50,7 @@
     <Compile Include="DependencyInjection\Setter\SetterInjectionFixture.cs" />
     <Compile Include="DependencyInjection\Setter\SetterInjectionTest.cs" />
     <Compile Include="ErrorEntityFixture.cs" />
+    <Compile Include="FluentInterfaceFixture.cs" />
     <Compile Include="LinqFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RawGenericFactoryFixture.cs" />
