@@ -6,7 +6,7 @@ using System.Text;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PracticalPatterns.FactoryMethod.SimpleFactory;
 
-namespace PracticalPatterns.FactoryMethod.Tests.SimpleFactory
+namespace PracticalPatterns.FactoryMethod.SimpleFactory.Tests
 {
     [TestClass]
     public class FactoryFixture

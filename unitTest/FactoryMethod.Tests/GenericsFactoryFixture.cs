@@ -6,7 +6,7 @@ using System.Text;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PracticalPatterns.FactoryMethod.Generics;
 
-namespace PracticalPatterns.FactoryMethod.Tests
+namespace PracticalPatterns.FactoryMethod.Generics.Tests
 {
     [TestClass]
     public class GenericsFactoryFixture

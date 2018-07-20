@@ -6,7 +6,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Configuration;
 using System.Collections.Specialized;
 
-namespace PracticalPatterns.FactoryMethod.Tests.Classic
+namespace PracticalPatterns.FactoryMethod.Classic.Tests
 {
     [TestClass]
     public class ConfigurationFactoryFixture

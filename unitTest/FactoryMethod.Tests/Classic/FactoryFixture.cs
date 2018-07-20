@@ -6,7 +6,7 @@ using System.Text;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PracticalPatterns.FactoryMethod;
 
-namespace PracticalPatterns.FactoryMethod.Tests.Classic
+namespace PracticalPatterns.FactoryMethod.Classic.Tests
 {
     public class Assembler
     {
