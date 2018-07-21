@@ -42,9 +42,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 Singleton", "05 Singleto
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 Singleton", "05 Singleton", "{A49E1D33-8035-4F31-9B37-731C813B437E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{17E824FA-770F-4F46-9C5F-CB8E1E6E2C59}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "src\Singleton\Singleton.csproj", "{17E824FA-770F-4F46-9C5F-CB8E1E6E2C59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.Tests", "Singleton.Tests\Singleton.Tests.csproj", "{F5C04B91-D9A8-4A2B-B338-CF180B1B739C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.Tests", "unitTest\Singleton.Tests\Singleton.Tests.csproj", "{F5C04B91-D9A8-4A2B-B338-CF180B1B739C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
