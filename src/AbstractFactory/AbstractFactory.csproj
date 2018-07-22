@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Async\IAbstractFactory.cs" />
+    <Compile Include="Async\IProduct.cs" />
     <Compile Include="Classic\IConcreteFactory.cs" />
     <Compile Include="IAbstractFactory.cs" />
     <Compile Include="Product.cs" />
