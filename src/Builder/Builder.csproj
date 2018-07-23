@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Attributed\BuilderStepDiscovery.cs" />
+    <Compile Include="Attributed\BuildStepAttribute.cs" />
     <Compile Include="Classic\IBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
