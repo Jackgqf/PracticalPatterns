@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Attributed\BuilderStepDiscovery.cs" />
     <Compile Include="Attributed\BuildStepAttribute.cs" />
+    <Compile Include="Attributed\IBuilder.cs" />
     <Compile Include="Classic\IBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
