@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="EnumerableHelperFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SerializationHelperFixture.cs" />
     <Compile Include="TestHarnessFixture.cs" />
   </ItemGroup>
   <ItemGroup>
