@@ -46,8 +46,13 @@
   <ItemGroup>
     <Compile Include="ClassicTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SerializationFixture.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\src\Common\Common.csproj">
+      <Project>{D620E65B-0E63-4D38-9C9C-A091506CBA2A}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\src\Prototype\Prototype.csproj">
       <Project>{5EB336F9-242B-4474-8FA3-3757DA0B0AFB}</Project>
       <Name>Prototype</Name>
